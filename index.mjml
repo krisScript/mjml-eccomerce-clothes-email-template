@@ -1,0 +1,157 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      .icon {
+        width: 100px
+      }
+
+      .text {
+        color: #ffffff
+      }
+
+      .text-large {
+        font-size: 20px;
+      }
+
+      .text-small {
+        font-size: 12px;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body>
+    <mj-section padding="7px" background-color="#4586FF">
+      <mj-column width="20%">
+        <mj-image width="30px" src="./assets/logo.svg" />
+
+      </mj-column>
+      <mj-column width="80%">
+        <mj-navbar base-url="https://mjml.io" hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link font-size="12px" href="your link" color="#ffffff">Home</mj-navbar-link>
+          <mj-navbar-link font-size="12px" href="your link" color="#ffffff">Visit Store</mj-navbar-link>
+          <mj-navbar-link font-size="12px" href="your link" color="#ffffff">Blog</mj-navbar-link>
+          <mj-navbar-link font-size="12px" href="your link" color="#ffffff">News</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <mj-hero mode="fixed-height" height="300px" background-width="600px" background-height="469px" background-url="./assets/hero-img.jpg" background-color="#2a3448" padding="100px 0px">
+      <mj-text padding="20px" color="#ffffff" font-family="Helvetica" align="center" font-size="45px" line-height="45px" font-weight="900">
+        SHOP NOW
+      </mj-text>
+      <mj-button background-color="#2F323B" href="your link" align="center">
+        Visit Our Shop
+      </mj-button>
+    </mj-hero>
+    <mj-section background-color="#2F323B">
+      <mj-column>
+        <mj-text align="center" font-size="18px" font-weight="700" color="#ffffff">
+          <span style="color:#4586FF">FREE</span> SHIPPING ON ORDER OVER
+          <span style="color:#4586FF">$50</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image height="100px" src="./assets/black-cap.png" alt="" />
+        <mj-text align="center" font-size="15px">
+          Black Cap
+        </mj-text>
+        <mj-text align="center" color="#4586FF" font-size="15px " font-weight="800">
+          $15
+        </mj-text>
+        <mj-button background-color="#4586FF">
+          BUY NOW
+        </mj-button>
+      </mj-column>
+
+      <mj-column>
+        <mj-image height="100px" src="./assets/blue-shoes.png" alt="" />
+        <mj-text align="center" font-size="15px">
+          Blue Shoes
+        </mj-text>
+        <mj-text align="center" color="#4586FF" font-size="15px " font-weight="800">
+          $15
+        </mj-text>
+        <mj-button background-color="#4586FF">
+          BUY NOW
+        </mj-button>
+      </mj-column>
+
+      <mj-column>
+        <mj-image height="100px" src="./assets/black-shirt.png" alt="" />
+        <mj-text align="center" font-size="15px">
+          Black Shirt
+        </mj-text>
+        <mj-text align="center" color="#4586FF" font-size="15px " font-weight="800">
+          $15
+        </mj-text>
+        <mj-button background-color="#4586FF">
+          BUY NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#2f323b" padding-bottom="0px" padding-top="0">
+      <mj-column>
+        <mj-text align="left" color="#fff" font-size="13px" padding-left="25px" padding-right="25px" padding-bottom="0px" padding-top="0">
+          <p style="font-size: 19px;">See What Our Clients Say</p>
+          <p>Colour-block design, zip entry, oxford hood lining, side pockets &amp; TC lining.</p>
+        </mj-text>
+        <mj-button background-color="#4586FF" color="#ffffff" padding="15px 30px" border-radius="3px" href="your link" padding-bottom="10px" padding-top="0">Learn more</mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image src="./assets/client.jpg" alt="Man 2" align="center" border="none" width="302px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#4586FF">
+      <mj-column>
+        <mj-text color="#ffffff" font-size="20px" align="center">
+          OUR SERVICES
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#2F323B">
+      <mj-column>
+        <mj-text align="center">
+          <img class="icon" src="./assets/support.svg">
+          <p class="text text-large">24/7 SUPPORT</p>
+          <p class=" text text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ipsum?</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center">
+          <img class="icon" src="./assets/startup.svg">
+          <p class="text text-large">EXPRESS DELIVERY</p>
+          <p class=" text text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ipsum?</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center">
+          <img class="icon" src="./assets/credit-card.svg">
+          <p class="text text-large">PAYMENT METHODS</p>
+          <p class=" text text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, ipsum?</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#4586FF">
+      <mj-group>
+        <mj-column>
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+            <mj-social-element name="facebook" href="your link">
+            </mj-social-element>
+            <mj-social-element name="instagram" href="your link">
+            </mj-social-element>
+            <mj-social-element name="twitter" href="your link">
+            </mj-social-element>
+            <mj-social-element name="linkedin" href="your link">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+        <mj-column>
+          <mj-button background-color="#2F323B">
+            VISIT OUR STORE
+          </mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+  </mj-body>
+</mjml>
